@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "snmptrap-python"
+version = "0.1.0"
+description = ""
+authors = ["Kenichi Tanino <ke.tanino@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pysnmp = "^4.4.12"
+loguru = "^0.7.2"
+pyasn1 = "0.4.8"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

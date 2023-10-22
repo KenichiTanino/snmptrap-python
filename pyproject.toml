@@ -10,6 +10,7 @@ python = "^3.10"
 pysnmp = "^4.4.12"
 loguru = "^0.7.2"
 pyasn1 = "0.4.8"
+uuid6 = "^2023.5.2"
 
 
 [build-system]
